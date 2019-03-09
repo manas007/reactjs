@@ -1,0 +1,4 @@
+Rules of class components:
+1) Must be a javascript class
+2) Must extend the React.component
+3) Must define a 'render' method that returns some amount of JSX. 

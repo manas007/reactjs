@@ -1,3 +1,9 @@
 npm install -g create-react-app
 create-react-app projectname
 npm start
+react logo would show up spinning.
+
+Now go ahead and delete every file from the src folder (we will create our own files instead of using what's provided by react)
+create a new file index.js in the src folder. 
+google semantic ui cdn on google and add the link rel to the head tag in the index.html(public folder)
+start coding :)
