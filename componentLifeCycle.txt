@@ -1,0 +1,14 @@
+Lifecycle methods:
+
+A component lifecycle method is a function that we can optionally define inside of our class based components. They we will be automatically called by react
+at different points in the lifecycle.
+
+Constructor()
+render() (retur some JSX)
+componentDidMount()  --  ( called after the JSX first shows up)
+... sit and wait for updates....
+render() - render will be called many many times :)
+componentDidUpdate() -- called when the component updates itself.
+
+... sit and wait  until the component is no longer shown..
+componenWillUnmount()  

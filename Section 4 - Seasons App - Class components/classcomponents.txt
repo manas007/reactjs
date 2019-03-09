@@ -13,4 +13,5 @@ Rules of state:
 4) State must be initialized when a component is created. 
 5**) State can be only be updated using the function setState. (Very important)
 
+Passing State as Props:
 
