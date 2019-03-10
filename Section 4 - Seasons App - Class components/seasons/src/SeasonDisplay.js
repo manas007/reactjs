@@ -1,3 +1,5 @@
+
+import './SeasonDisplay.css'; // importing a css file. Webpack will link it to the index.html in the public folder.cd
 import React from 'react';
 
 
@@ -18,10 +20,10 @@ const SeasonDisplay = (props) => {
     console.log({text, iconName});
 
     return (
-    <div> 
-        <i className = { `massive ${iconName} icon` } />
+    <div className= { `season-display ${season}` }> 
+        <i className = { `icon-left massive ${iconName} icon` } />
         <h1>{text}</h1> 
-        <i className = {`massive ${iconName} icon` } />
+        <i className = {`icon-right massive ${iconName} icon` } />
     </div>
     );
 };
